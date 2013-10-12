@@ -1,0 +1,57 @@
+body{background-color:FloralWhite;}
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:172px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:black;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:SlateGray;
+}
+div.back
+{
+opacity:0.9;
+position:absolute;
+left:190px;
+width:900px;
+height:800px;
+background: url(images7.jpeg)
+}
+div.transbox
+{
+  width: 795px;
+  height: 635px;
+  margin: 30px 50px;
+  background-color: SlateGray;
+  border: 1px solid black;
+  opacity:0.7;
+  overflow:scroll;
+  
+}
+div.transbox p.p2
+{
+  margin: 30px 40px;
+  font-weight: bold;
+  color: red;
+  font-size:18px;
+  font-style:italic;
+}
+
